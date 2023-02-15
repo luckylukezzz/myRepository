@@ -140,7 +140,7 @@ l1.add_f(10)
 l1.add_after(30,10)
 l1.add_before(40,30)
 l1.add_f(50)
-l1.add_f(50)
+
 
 
 l1.delval(45)
