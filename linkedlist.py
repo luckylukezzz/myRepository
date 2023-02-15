@@ -118,7 +118,7 @@ class ll:
             print("theres no node like that")
 
 
-    #prints all nodes of the linkedlist
+    #prints all nodes of the linkedlist oh yeah
     @property
     def traversal(self):
         if self.head==None:
@@ -130,7 +130,7 @@ class ll:
             n=n.next
 
 
-
+#gammak pgo
 
 #testing
 l1=ll()
@@ -139,6 +139,9 @@ l1.add_l(45)
 l1.add_f(10)
 l1.add_after(30,10)
 l1.add_before(40,30)
-l1.del_f()
+l1.add_f(50)
+l1.add_f(50)
+
+
 l1.delval(45)
 l1.traversal
